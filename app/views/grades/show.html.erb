@@ -1,0 +1,15 @@
+<div>
+	Name: <%= @grade.name %>
+</div>
+<div>
+	Course: <%= @grade.course %>
+</div>
+<div>
+	ID Number: <%= @grade.id %>
+</div>
+<div>
+	Average Grade: <%= (@grade.prefinal + @grade.midterm + @grade.prelim + @grade.final)/4 %>
+</div>
+<div>
+	<a href="/grades">BACK</a>
+</div>

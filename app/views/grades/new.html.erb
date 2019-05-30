@@ -1,0 +1,30 @@
+<%= form_for(@grade) do |f| %>
+<div>
+	<%= f.label :name %>
+	<%= f.text_field :name %>
+</div>
+<div>
+	<%= f.label :course %>
+	<%= f.text_field :course %>
+</div>
+<div>
+	<%= f.label "Preliminary Exam" %>
+	<%= f.text_field :prelim %>
+</div>
+<div>
+	<%= f.label "Midterm Exam" %>
+	<%= f.text_field :midterm %>
+</div>
+<div>
+	<%= f.label "Prefinal Exam" %>
+	<%= f.text_field :prefinal %>
+</div>
+<div>
+	<%= f.label "Final Exam" %>
+	<%= f.text_field :final %>
+</div>
+
+<div>
+	<%= f.submit %>
+</div>
+<% end %>
